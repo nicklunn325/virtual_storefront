@@ -5,31 +5,8 @@ import Home from './Home.js'
 import Shop from './Shop.js'
 import Cart from './Cart.js'
 import {Navbar, Nav} from 'react-bootstrap'
-import {useState, useEffect} from 'react'
 
 function App() {
-
-  const [data, setData] = useState([])
-
-  useEffect(() => {
-
-    // let scripts = Array.from(document.querySelectorAll('script'))
-    // scripts.forEach(script => script.crossorigin="anonymous")
-
-    // const proxy = "https://cors-anywhere.herokuapp.com/"
-    const apiKey = "AED9CFBC8ED7D3CC9D957D821D70CA8C"
-    fetch(`https://api.upcdatabase.org/product/0111222333446?apikey=${apiKey}`,{
-      method: "GET",
-      mode: "cors",
-      headers: {
-        "Content-Type": "application/json"
-      }
-    })
-      .then(res => res.json())
-      .then(data => console.log(data))
-  })
-
-
   return (
     <div className="App">
         <Navbar bg="dark" variant="dark">
