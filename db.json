@@ -1,0 +1,23 @@
+{
+    "items":[
+        {
+            "id": 1,
+            "name": "Red Delicious Apple",
+            "imgURL": "https://img.huffingtonpost.com/asset/5b7ad435200000420034abec.jpeg?cache=epfSt9odEb&ops=scalefit_720_noupscale",
+            "description": "The best of all the apples. Supreme.",
+            "quantity": 100,
+            "price": 0.99
+        },
+        {
+            "id": 2,
+            "name": "Granny Smith Apple",
+            "imgURL": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_27f3a867-2cf6-44b3-9a59-39a962b61893.jpg",
+            "description": "Not quite as good as the Red Delicous. Less Supreme.",
+            "quantity": 100,
+            "price": 0.99
+        }
+    ],
+    "cartItems": [
+        
+    ]
+}
