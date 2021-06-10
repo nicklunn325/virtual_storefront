@@ -1,0 +1,27 @@
+.navbar-brand {
+  min-width: 18vw;
+  padding-left: 2vw;
+}
+
+.mr-auto {
+  display: flex;
+  justify-content: flex-end;
+  min-width: 78vw;
+  padding-right: 2vw;
+}
+
+#home {
+  text-align: center;
+  min-width: 100vw;
+}
+
+#shop {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item-image {
+  max-width: 20vw;
+  max-height: 25vh;
+  padding: 10px;
+}
