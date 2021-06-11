@@ -15,6 +15,21 @@ const Shop = () => {
             .then(data => setItems(data))
     }   
 
+    const updateItems = (id, quantity) => {
+        let update = items.map(item => {
+            if(item.id === id){
+                item.quantity = item.quantity- quantity
+                return item
+            } else {
+                return item
+            }
+        })
+
+        setItems(update)
+
+
+    }
+
 
     // const setItems = (data) => {
     //     this.setState({items: data})
@@ -23,7 +38,7 @@ const Shop = () => {
     useEffect(fetchItems, [])
 
     const renderItems = () => {
-        return items.map(item => <ItemCard key={item.id} item={item}/>)
+        return items.map(item => <ItemCard updateItems={updateItems} key={item.id} item={item}/>)
     }
 
     // fetch and display all items from database

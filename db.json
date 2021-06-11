@@ -5,7 +5,7 @@
       "title": "Red Delicious Apple",
       "image": "https://img.huffingtonpost.com/asset/5b7ad435200000420034abec.jpeg?cache=epfSt9odEb&ops=scalefit_720_noupscale",
       "description": "The best of all the apples. Supreme.",
-      "quantity": 100,
+      "quantity": 80,
       "price": 0.99
     },
     {
@@ -13,7 +13,7 @@
       "title": "Granny Smith Apple",
       "image": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_27f3a867-2cf6-44b3-9a59-39a962b61893.jpg",
       "description": "Not quite as good as the Red Delicous. Less Supreme.",
-      "quantity": 100,
+      "quantity": 88,
       "price": 0.99
     },
     {
@@ -29,7 +29,7 @@
       "title": "Solid Gold Petite Micropave ",
       "price": 168,
       "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
-      "quantity": 10,
+      "quantity": 6,
       "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg"
     },
     {
@@ -37,7 +37,7 @@
       "title": "Mens Casual Slim Fit",
       "price": 15.99,
       "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
-      "quantity": 10,
+      "quantity": 8,
       "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
     },
     {
@@ -53,7 +53,7 @@
       "title": "White Gold Plated Princess",
       "price": 9.99,
       "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
-      "quantity": 10,
+      "quantity": 8,
       "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg"
     },
     {
@@ -61,7 +61,7 @@
       "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
       "price": 10.99,
       "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
-      "quantity": 10,
+      "quantity": 7,
       "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg"
     },
     {
