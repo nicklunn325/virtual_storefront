@@ -13,7 +13,8 @@ const Shop = () => {
         fetch('http://localhost:3000/items')
             .then(res => res.json())
             .then(data => setItems(data))
-    }
+    }   
+
 
     // const setItems = (data) => {
     //     this.setState({items: data})
