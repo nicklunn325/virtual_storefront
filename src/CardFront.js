@@ -1,7 +1,9 @@
 
-const CardFront = ({image, id, flipCard}) => {
+const CardFront = ({image, id}) => {
     return (
-        <img onClick={flipCard} className="card card-front" src={image} alt={id} />
+        <div className="card-front">
+            <img className="card-image" src={image} alt={id} />
+        </div>
     )
 }
 

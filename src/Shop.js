@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react'
-import ItemCard from './Item'
+import ItemCard from './ItemCard'
 
 const Shop = () => {
 
