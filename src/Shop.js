@@ -19,7 +19,7 @@ const Shop = () => {
     //     this.setState({items: data})
     // }
     
-    useEffect(fetchItems)
+    useEffect(fetchItems, [])
 
     const renderItems = () => {
         return items.map(item => <ItemCard key={item.id} item={item}/>)
